@@ -1,0 +1,157 @@
+Shared cache: disabled
+Shared cache location:
+C:\Users\prome\AppData\Local\Microsoft\Windows\INetCache\dune\db
+Workspace root:
+"C:\\Users\\prome\\development\\prometheansacrifice\\dune-repro"
+Auto-detected concurrency: 8
+Dune context:
+ { name = "default"
+ ; kind = "default"
+ ; profile = Dev
+ ; merlin = true
+ ; fdo_target_exe = None
+ ; build_dir = In_build_dir "default"
+ ; instrument_with = []
+ }
+Actual targets:
+- alias @@default
+Internal error, please report upstream including the contents of _build/log.
+Description:
+  ("Path.drop_prefix_exn",
+  { t =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi\\Webapi"
+  ; prefix =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi"
+  })
+Raised at Stdune__Code_error.raise in file
+  "otherlibs/stdune/src\\code_error.ml", line 10, characters 30-62
+Called from Dune_rules__Melange_rules.lib_output_path in file
+  "src/dune_rules\\melange\\melange_rules.ml" (inlined), line 25, characters
+  8-48
+Called from Dune_rules__Melange_rules.make_js_name in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 35, characters 21-65
+Called from Dune_rules__Melange_rules.js_targets_of_libs.(fun).of_lib.(fun)
+  in file "src/dune_rules\\melange\\melange_rules.ml", line 176, characters
+  54-84
+Called from Stdlib__List.rev_map.rmap_f in file "list.ml", line 105,
+  characters 22-25
+Called from Fiber__Core.O.(>>|).(fun) in file "vendor/fiber/src\\core.ml",
+  line 253, characters 36-41
+Called from Fiber__Scheduler.exec in file "vendor/fiber/src\\scheduler.ml",
+  line 76, characters 8-11
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "all" })
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "default" })
+-> required by ("toplevel", ())
+
+I must not crash.  Uncertainty is the mind-killer. Exceptions are the
+little-death that brings total obliteration.  I will fully express my cases. 
+Execution will pass over me and through me.  And when it has gone past, I
+will unwind the stack along its path.  Where the cases are handled there will
+be nothing.  Only I will remain.
+Internal error, please report upstream including the contents of _build/log.
+Description:
+  ("Path.drop_prefix_exn",
+  { t =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi\\Webapi/ResizeObserver"
+  ; prefix =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi"
+  })
+Raised at Stdune__Code_error.raise in file
+  "otherlibs/stdune/src\\code_error.ml", line 10, characters 30-62
+Called from Dune_rules__Melange_rules.lib_output_path in file
+  "src/dune_rules\\melange\\melange_rules.ml" (inlined), line 25, characters
+  8-48
+Called from Dune_rules__Melange_rules.make_js_name in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 35, characters 21-65
+Called from Dune_rules__Melange_rules.build_js.(fun) in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 207, characters 21-51
+Called from Fiber__Scheduler.exec in file "vendor/fiber/src\\scheduler.ml",
+  line 76, characters 8-11
+-> required by ("<unnamed>", ())
+-> required by ("<unnamed>", ())
+-> required by ("load-dir", In_build_dir "default/output")
+-> required by ("build-file", In_build_dir "default/output/App.js")
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "all" })
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "default" })
+-> required by ("toplevel", ())
+Internal error, please report upstream including the contents of _build/log.
+Description:
+  ("Path.drop_prefix_exn",
+  { t =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi\\Webapi/Dom"
+  ; prefix =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi"
+  })
+Raised at Stdune__Code_error.raise in file
+  "otherlibs/stdune/src\\code_error.ml", line 10, characters 30-62
+Called from Dune_rules__Melange_rules.lib_output_path in file
+  "src/dune_rules\\melange\\melange_rules.ml" (inlined), line 25, characters
+  8-48
+Called from Dune_rules__Melange_rules.make_js_name in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 35, characters 21-65
+Called from Dune_rules__Melange_rules.build_js.(fun) in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 207, characters 21-51
+Called from Fiber__Scheduler.exec in file "vendor/fiber/src\\scheduler.ml",
+  line 76, characters 8-11
+-> required by ("<unnamed>", ())
+-> required by ("<unnamed>", ())
+-> required by ("load-dir", In_build_dir "default/output")
+-> required by ("build-file", In_build_dir "default/output/App.js")
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "all" })
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "default" })
+-> required by ("toplevel", ())
+Internal error, please report upstream including the contents of _build/log.
+Description:
+  ("Path.drop_prefix_exn",
+  { t =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi\\Webapi/Canvas"
+  ; prefix =
+      External
+        "C:\\Users\\prome\\AppData\\Local\\opam\\5.2.0\\lib\\melange-webapi"
+  })
+Raised at Stdune__Code_error.raise in file
+  "otherlibs/stdune/src\\code_error.ml", line 10, characters 30-62
+Called from Dune_rules__Melange_rules.lib_output_path in file
+  "src/dune_rules\\melange\\melange_rules.ml" (inlined), line 25, characters
+  8-48
+Called from Dune_rules__Melange_rules.make_js_name in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 35, characters 21-65
+Called from Dune_rules__Melange_rules.build_js.(fun) in file
+  "src/dune_rules\\melange\\melange_rules.ml", line 207, characters 21-51
+Called from Fiber__Scheduler.exec in file "vendor/fiber/src\\scheduler.ml",
+  line 76, characters 8-11
+-> required by ("<unnamed>", ())
+-> required by ("<unnamed>", ())
+-> required by ("load-dir", In_build_dir "default/output")
+-> required by ("build-file", In_build_dir "default/output/App.js")
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "all" })
+-> required by ("<unnamed>", ())
+-> required by
+   ("build-alias", { dir = In_build_dir "default"; name = "default" })
+-> required by ("toplevel", ())
+Running[2]: (cd _build/.sandbox/70b16730b5141e3abdcd334db2ac0db7/default && C:\Users\prome\AppData\Local\opam\5.2.0\bin\refmt.exe --print binary App.re) > _build/.sandbox/70b16730b5141e3abdcd334db2ac0db7/default/App.re.ml
+Running[3]: (cd _build/default && C:\Users\prome\AppData\Local\opam\5.2.0\bin\ocamlc.opt.exe -g -w -24 -I .ppx/9b08511fbad9c15355a1e1f8e80934bc -I C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\compiler-libs -I C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\unix -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\js_parser -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\ppx -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\menhirLib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\common -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\shadow -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppx_derivers -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\ast -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\astlib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\print_diff -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\stdppx -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\traverse_builtins -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\sexplib0 -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\stdlib-shims -no-alias-deps -o .ppx/9b08511fbad9c15355a1e1f8e80934bc/dune__exe___ppx.cmo -c -impl .ppx/9b08511fbad9c15355a1e1f8e80934bc/_ppx.ml-gen)
+Running[4]: (cd _build/default && C:\Users\prome\AppData\Local\opam\5.2.0\bin\ocamlopt.opt.exe -g -w -24 -I .ppx/9b08511fbad9c15355a1e1f8e80934bc -I C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\compiler-libs -I C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\unix -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_compiler_libs -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_ffi -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_wrapper -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melstd -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/pp -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\js_parser -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\ppx -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\menhirLib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\common -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\shadow -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppx_derivers -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\ast -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\astlib -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\print_diff -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\stdppx -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\traverse_builtins -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\sexplib0 -I C:\Users\prome\AppData\Local\opam\5.2.0\lib\stdlib-shims -intf-suffix .ml-gen -no-alias-deps -o .ppx/9b08511fbad9c15355a1e1f8e80934bc/dune__exe___ppx.cmx -c -impl .ppx/9b08511fbad9c15355a1e1f8e80934bc/_ppx.ml-gen)
+Running[5]: (cd _build/default && C:\Users\prome\AppData\Local\opam\5.2.0\bin\ocamlopt.opt.exe -g -w -24 -o .ppx/9b08511fbad9c15355a1e1f8e80934bc/ppx.exe C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\unix\unix.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\menhirLib\menhirLib.cmxa C:/Users/prome/AppData/Local/opam/5.2.0/lib/ocaml\compiler-libs\ocamlcommon.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_wrapper/melange_wrapper.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_compiler_libs/melange_compiler_libs.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/pp/pp.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melstd/melstd.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\js_parser/js_parser.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\__private__/melange_ffi/melange_ffi.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\common/ocaml_common.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\astlib/astlib.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\stdlib-shims\stdlib_shims.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\ast/ppxlib_ast.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ocaml-compiler-libs\shadow/ocaml_shadow.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\print_diff/ppxlib_print_diff.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppx_derivers\ppx_derivers.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\traverse_builtins/ppxlib_traverse_builtins.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\sexplib0\sexplib0.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\stdppx/stdppx.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\ppxlib\ppxlib.cmxa C:\Users\prome\AppData\Local\opam\5.2.0\lib\melange\ppx/melange_ppx.cmxa .ppx/9b08511fbad9c15355a1e1f8e80934bc/dune__exe___ppx.cmx)
+Running[6]: (cd _build/.sandbox/d40d4f724c5cca5297c3e100a6b5e993/default && .ppx/9b08511fbad9c15355a1e1f8e80934bc/ppx.exe -o App.re.pp.ml --impl App.re.ml -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
